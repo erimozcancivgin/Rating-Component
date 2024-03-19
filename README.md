@@ -6,7 +6,7 @@
 Bu projede bir derecelendirme kutucuğu oluşturulmuştur. Kullanıcı 1 ile 5 arasında bir sayı seçerek submit butonuna tıkladığında, seçtiği derecelendirme puanını da gösteren bir kutucuk açılmaktadır.
 
 ## Link
-[Proje] ([https://erimozcancivgin.github.io/Rating-Component/](https://erimozcancivgin.github.io/Rating-Component/))
+[Proje]([https://erimozcancivgin.github.io/Rating-Component/](https://erimozcancivgin.github.io/Rating-Component/))
 ## Görev
 
 Kullanıcılarınız şunları yapabilmelidir:
