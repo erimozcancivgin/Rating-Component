@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="" href="https://fonts.google.com/specimen/Overpass">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  </style>
+</head>
+
+<body>
+
+  <div class="rate-container">
+    <div class="icon-wrapper">
+      <div class="icon">
+        <img src="./images/icon-star.svg" alt="">
+      </div>
+    </div>
+    <div class="text-wrapper">
+      <p class="title">How did we do? </p>
+      <p class="text-content"> Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+    </div>
+    <div class="rate-buttons-wrapper">
+      <Button class="btn" value="1">1</Button>
+      <Button class="btn" value="2">2</Button>
+      <Button class="btn" value="3">3</Button>
+      <Button class="btn" value="4">4</Button>
+      <Button class="btn" value="5">5</Button>
+    </div>
+    <button type="button" class="btn-submit">Submit</button>
+  </div>
+
+  <!-- Thank you container  -->
+
+  <div class="thank-you-container hidden">
+    <div class="image-wrapper">
+      <img src="./images/illustration-thank-you.svg" alt="">
+    </div>
+    <p class="selected-amount">You selected
+      <span class="rate-value"></span> out of 5
+    </p>
+    <h2>Thank you!</h2>
+    <p class="thank-you-text-content"> We appreciate you taking the time to give a rating. If you ever need more
+      support, don't
+      hesitate to get in touch!</p>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Erim Ozcan Civgin</a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  height: 100vh;
+}
+
+.rate-container,
+.thank-you-container {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  background: hsl(213, 19%, 18%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 30px;
+  gap: 25px;
+}
+.rate-container .icon-wrapper,
+.thank-you-container .icon-wrapper {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(213, 20%, 22%);
+}
+.rate-container .icon-wrapper .icon,
+.thank-you-container .icon-wrapper .icon {
+  width: 15px;
+  height: 15px;
+}
+.rate-container .text-wrapper,
+.thank-you-container .text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.rate-container .text-wrapper .title,
+.thank-you-container .text-wrapper .title {
+  font-weight: 700;
+  font-size: x-large;
+  color: hsl(0, 0%, 100%);
+}
+.rate-container .text-wrapper .text-content,
+.thank-you-container .text-wrapper .text-content {
+  font-weight: 400;
+  color: hsl(217, 12%, 63%);
+  line-height: 25px;
+}
+.rate-container .rate-buttons-wrapper,
+.thank-you-container .rate-buttons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rate-container .rate-buttons-wrapper .btn,
+.thank-you-container .rate-buttons-wrapper .btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: hsl(213, 20%, 22%);
+  color: hsl(217, 12%, 63%);
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.rate-container .rate-buttons-wrapper .btn:hover,
+.thank-you-container .rate-buttons-wrapper .btn:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+.rate-container .rate-buttons-wrapper .btn:focus,
+.thank-you-container .rate-buttons-wrapper .btn:focus {
+  background: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+.rate-container .btn-submit,
+.thank-you-container .btn-submit {
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+  border-radius: 30px;
+  background-color: hsl(25, 97%, 53%);
+  transition: 0.3s;
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.rate-container .btn-submit:hover,
+.thank-you-container .btn-submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+.rate-container .image-wrapper,
+.thank-you-container .image-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rate-container .selected-amount,
+.thank-you-container .selected-amount {
+  align-self: center;
+  display: inline-block;
+  background: hsl(213, 20%, 22%);
+  color: hsl(25, 97%, 53%);
+  border-radius: 50px;
+  width: 70%;
+  text-align: center;
+}
+.rate-container h2,
+.thank-you-container h2 {
+  align-self: center;
+  color: hsl(0, 0%, 100%);
+}
+.rate-container .thank-you-text-content,
+.thank-you-container .thank-you-text-content {
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  margin-top: 20px;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+.attribution a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .rate-container,
+  .thank-you-container {
+    max-width: none;
+    padding: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
